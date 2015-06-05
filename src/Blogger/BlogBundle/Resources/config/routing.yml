@@ -1,0 +1,7 @@
+#blogger_blog_homepage:
+#    path:     /hello/{name}
+#    defaults: { _controller: BloggerBlogBundle:Default:index }
+
+blogger_blog:
+    resource: "@BloggerBlogBundle/Controller"
+    type: annotation
